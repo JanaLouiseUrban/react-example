@@ -1,0 +1,43 @@
+.App {
+  background-color: #41474d;
+  min-height: 100vh;
+
+  .AppHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 270px;
+
+    nav {
+      margin-top: 10px;
+      
+      a {
+        color: white;
+        padding: 10px 20px;
+        margin: 25px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #51565c;
+        box-shadow: 0px 4px 15px -6px #000000;
+    
+        &:hover {
+          box-shadow: 0px 4px 15px -3px #000000;
+        }
+
+        &.activeNavLink {
+          border-color: #0366D6;
+          text-decoration: underline; 
+          box-shadow: 0px 4px 15px -3px #000000;
+        }
+      }
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

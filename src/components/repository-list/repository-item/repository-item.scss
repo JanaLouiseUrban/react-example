@@ -1,0 +1,26 @@
+.RepositoryItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  background-color: white;
+  width: 60vw;
+  padding: 20px;
+
+  .Information {
+    width: 90%;
+    margin-right: 20px;
+
+    a {
+      text-decoration: none;
+      color: black;
+  
+      &:hover {
+        color: #0366D6;
+      }
+  
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+}
